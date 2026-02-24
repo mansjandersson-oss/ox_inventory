@@ -88,6 +88,17 @@ export const canStack = (sourceSlot: Slot, targetSlot: Slot) =>
 export const findAvailableSlot = (item: Slot, data: ItemData, items: Slot[]) => {
   if (!data.stack) return items.find((target) => target.name === undefined);
 
+  if (typeof data.stack === 'number') {
+    const stackableSlot = items.find(
+      (target) =>
+        isSlotWithItem(target) &&
+        target.name === item.name &&
+        isEqual(target.metadata, item.metadata) &&
+        target.count < data.stack
+    );
+    return stackableSlot || items.find((target) => target.name === undefined);
+  }
+
   const stackableSlot = items.find((target) => target.name === item.name && isEqual(target.metadata, item.metadata));
 
   return stackableSlot || items.find((target) => target.name === undefined);
