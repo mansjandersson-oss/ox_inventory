@@ -1,7 +1,7 @@
 export type ItemData = {
   name: string;
   label: string;
-  stack: boolean;
+  stack: boolean | number;
   usable: boolean;
   close: boolean;
   count: number;

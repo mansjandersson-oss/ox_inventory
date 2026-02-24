@@ -61,7 +61,9 @@ export const onDrop = (source: DragSource, target?: DropTarget) => {
   );
 
   isSlotWithItem(targetSlot, true)
-    ? sourceData.stack && canStack(sourceSlot, targetSlot)
+    ? sourceData.stack &&
+      canStack(sourceSlot, targetSlot) &&
+      (typeof sourceData.stack !== 'number' || (targetSlot as SlotWithItem).count < sourceData.stack)
       ? store.dispatch(
           stackSlots({
             ...data,
