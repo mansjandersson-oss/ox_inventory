@@ -89,5 +89,6 @@
   "crafting_bench": "Meisterdamispink",
   "open_crafting_bench": "Ava meisterdamispink",
   "not_enough_durability": "Esemel %s pole piisavalt vastupidavust",
-  "storage": "Hoidla"
+  "storage": "Hoidla",
+  "ui_max_stack": "Max. virn"
 }

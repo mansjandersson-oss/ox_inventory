@@ -48,7 +48,7 @@
   "buy_amount": "Trage die Anzahl ein die du kaufen möchtest",
   "component_has": "Diese Waffe hat bereits ein/e %s",
   "component_invalid": "Diese Waffe ist nicht kompatibel mit einem %s",
-  "component_slot_occupied" : "Der %s Slot dieser Waffe ist bereits belegt",
+  "component_slot_occupied": "Der %s Slot dieser Waffe ist bereits belegt",
   "cannot_perform": "Du kannst diese Aktion nicht ausführen",
   "cannot_carry": "Du kannst nicht so viel tragen",
   "cannot_carry_other": "Das Inventar hat nicht genügend Platz",
@@ -89,5 +89,6 @@
   "crafting_bench": "Werkbank",
   "open_crafting_bench": "Werkbank öffnen",
   "not_enough_durability": "Haltbarkeit von %s reicht nicht mehr aus",
-  "storage": "Kofferraum"
+  "storage": "Kofferraum",
+  "ui_max_stack": "Max. Stapel"
 }

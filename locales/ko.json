@@ -79,5 +79,6 @@
   "no_durability": "%s 내구도가 고갈되었습니다",
   "cannot_give": "대상에 %s %s을(를) 제공할 수 없습니다.",
   "evidence_cannot_take": "증거로 삼을 만큼 등급이 높지 않음",
-  "dumpster": "쓰레기 수거통"
+  "dumpster": "쓰레기 수거통",
+  "ui_max_stack": "최대 스택"
 }

@@ -84,5 +84,6 @@
   "dumpster": "Cassonetto",
   "crafting_item": "Craftando %s",
   "crafting_bench": "Banco da lavoro",
-  "not_enough_durability": "%s non ha abbastanza durabilità"
+  "not_enough_durability": "%s non ha abbastanza durabilità",
+  "ui_max_stack": "Stack massimo"
 }

@@ -221,5 +221,6 @@ return {
 	['scrapmetal'] = {
 		label = 'Scrap Metal',
 		weight = 80,
+		stack = 20,
 	},
 }

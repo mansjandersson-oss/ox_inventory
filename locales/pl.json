@@ -89,5 +89,6 @@
   "crafting_bench": "Stół do wytwarzania",
   "open_crafting_bench": "Otwórz stół do wytwarzania",
   "not_enough_durability": "%s nie posiada wystarczająco wytrzymałości",
-  "storage": "Magazyn"
+  "storage": "Magazyn",
+  "ui_max_stack": "Maks. stos"
 }
