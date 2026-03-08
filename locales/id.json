@@ -84,5 +84,6 @@
   "dumpster": "Tempat Sampah",
   "crafting_item": "Membuat %s",
   "crafting_bench": "Bangku Kerajinan",
-  "not_enough_durability": "%s tidak memiliki daya tahan yang cukup"
+  "not_enough_durability": "%s tidak memiliki daya tahan yang cukup",
+  "ui_max_stack": "Maks. tumpukan"
 }

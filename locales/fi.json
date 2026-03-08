@@ -88,5 +88,6 @@
   "crafting_item": "Valmistetaan %s",
   "crafting_bench": "Työkalupenkki",
   "open_crafting_bench": "Avaa työkalupenkki",
-  "not_enough_durability": "%s on liian huonossa kunnossa"
+  "not_enough_durability": "%s on liian huonossa kunnossa",
+  "ui_max_stack": "Maksimipino"
 }

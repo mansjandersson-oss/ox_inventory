@@ -80,5 +80,6 @@
   "no_durability": "%s Hållbarheten är slut",
   "cannot_give": "Kan inte ge %s %s till målet",
   "evidence_cannot_take": "Du har inte rätt att dra tillbaka bevis",
-  "dumpster": "Soptunna"
+  "dumpster": "Soptunna",
+  "ui_max_stack": "Max stapel"
 }

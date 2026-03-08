@@ -81,5 +81,6 @@
   "no_durability": "Izdržljivost je jako slaba",
   "cannot_give": "Nije moguće dati %s %s cilju",
   "evidence_cannot_take": "Nisi autoriziran za ovo",
-  "dumpster": "Kontejner"
+  "dumpster": "Kontejner",
+  "ui_max_stack": "Maks. hrpa"
 }

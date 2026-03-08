@@ -71,6 +71,11 @@ const SlotTooltip: React.ForwardRefRenderFunction<
                   {Locale.ui_serial}: {item.metadata.serial}
                 </p>
               )}
+              {typeof itemData.stack === 'number' && (
+                <p>
+                  {Locale.ui_max_stack}: {itemData.stack}
+                </p>
+              )}
               {item.metadata?.components && item.metadata?.components[0] && (
                 <p>
                   {Locale.ui_components}:{' '}

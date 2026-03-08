@@ -89,5 +89,6 @@
   "crafting_bench": "Crafting Bench",
   "open_crafting_bench": "Open Crafting Bench",
   "not_enough_durability": "%s does not have enough durability",
-  "storage": "Storage"
+  "storage": "Storage",
+  "ui_max_stack": "Max stack"
 }

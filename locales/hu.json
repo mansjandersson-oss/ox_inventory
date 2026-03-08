@@ -89,5 +89,6 @@
   "crafting_bench": "Barkácsasztal",
   "open_crafting_bench": "Barkácsasztal megnyitása",
   "not_enough_durability": "%s elhasználodott!",
-  "storage": "Tároló"
+  "storage": "Tároló",
+  "ui_max_stack": "Max. halom"
 }

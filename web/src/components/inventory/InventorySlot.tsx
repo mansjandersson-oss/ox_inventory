@@ -169,7 +169,14 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
                       })}g `
                   : ''}
               </p>
-              <p>{item.count ? item.count.toLocaleString('en-us') + `x` : ''}</p>
+              <p>
+                {item.count
+                  ? ((s) =>
+                      typeof s === 'number'
+                        ? `${item.count.toLocaleString('en-us')}/${s.toLocaleString('en-us')}x`
+                        : `${item.count.toLocaleString('en-us')}x`)(Items[item.name]?.stack)
+                  : ''}
+              </p>
             </div>
           </div>
           <div>

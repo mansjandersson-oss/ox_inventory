@@ -1,4 +1,3 @@
-
 {
   "ui_use": "Koristi",
   "ui_give": "Daj",
@@ -89,5 +88,6 @@
   "crafting_item": "Kraftovanje %s",
   "crafting_bench": "Sto za Kraftovanje",
   "open_crafting_bench": "Otvori sto za kraftovanje",
-  "not_enough_durability": "%s nema dovoljno izdrzljivosti"
+  "not_enough_durability": "%s nema dovoljno izdrzljivosti",
+  "ui_max_stack": "Макс. стек"
 }

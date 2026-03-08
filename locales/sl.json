@@ -81,5 +81,6 @@
   "no_durability": "Trajnost artikla je izčrpana",
   "cannot_give": "Cilju ni mogoče dati %s %s",
   "evidence_cannot_take": "Nisi dovolj veliki čin, da bi uzemal dokaze.",
-  "dumpster": "Smetnjak"
+  "dumpster": "Smetnjak",
+  "ui_max_stack": "Maks. kup"
 }
